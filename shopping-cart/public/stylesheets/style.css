@@ -1,0 +1,41 @@
+.thumbnail img {
+  max-height: 150px;
+}
+.thumbnail .description {
+  color: #7f7f7f;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.signup-id {
+  display: none;
+}
+
+.messages {
+  color: red;
+}
+.pull-right {
+  margin-left: 5px;
+}
+.register {
+  text-decoration: underline;
+  color: orange;
+}
+.web {
+  margin-top: 10%;
+  margin: auto;
+}
+
+.quantity {
+  margin-left: 65.5%;
+  margin-top: -5%;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.pagination {
+  margin-left: 48%;
+}
