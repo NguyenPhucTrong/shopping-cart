@@ -61,11 +61,7 @@
               <div class="price"> ${{price}} </div>
               <div class="quantity"> Quantity: {{quantity}} </div>
               <br />
-              <a
-                href="/add-to-cart/{{_id}}"
-                class="btn btn-danger pull-right"
-                role="button"
-              >Add to Shopping Cart</a>
+
               {{#if isDisplay}}
                 <a
                   href="/product/edit-product/{{_id}}"
@@ -76,6 +72,13 @@
                   data-id="{{_id}}"
                   class="btn btn-danger pull-primary pull-right delete-product"
                 >Delete</button>
+              {{else}}
+                <a
+                  href="/add-to-cart/{{_id}}"
+                  class="btn btn-danger pull-right"
+                  role="button"
+                >Add to Shopping Cart</a>
+
               {{/if}}
             </div>
             <br />
